@@ -1,0 +1,192 @@
+/* ------------------------- New CSS starts --------------------- */
+/* Top section */
+.wallpaper {
+  background-image: url("./Images/homepageimg.png");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.header__btns {
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+#signup__btn {
+  background-color: white;
+  color: red;
+}
+
+.wallpaper__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+
+.wallpaper__logo {
+  height: 60px;
+  width: 60px;
+  color: red;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.wallpaper__heading {
+  color: white;
+}
+
+.wallpaper__inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+#location {
+  height: 40px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.restaurant__input {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+
+  width: 55%;
+}
+
+.search__icon {
+  padding: 0.2rem;
+}
+
+.restaurant__input > input {
+  border: none;
+  background-color: transparent;
+}
+
+/* Bottom Section */
+.quicksearchHeading {
+  font-size: 22px;
+  color: rgb(62, 62, 156);
+}
+.quickSearch__card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quickSearch__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.5);
+  width: 90%;
+}
+
+.image__container {
+  width: 40%;
+  height: 100%;
+}
+
+.image__container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.desc__container {
+  width: 55%;
+}
+
+/* Media Query */
+@media (min-width: 375px) and (max-width: 575px) {
+  .wallpaper__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 0.5rem;
+  }
+
+  #location {
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .restaurant__input {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .search__icon {
+    padding: 0.2rem;
+  }
+
+  .restaurant__input > input {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .wallpaper__inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  #location {
+    height: 40px;
+    border-radius: 5px;
+    width: 40%;
+  }
+
+  .restaurant__input {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 55%;
+  }
+
+  .search__icon {
+    padding: 0.2rem;
+  }
+
+  .restaurant__input > input {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+/* ------------------------- New CSS ends --------------------- */
